@@ -1,0 +1,103 @@
+.con{
+    border: solid 1px;
+    background-color:  rgb(50, 179, 99);
+    color: aliceblue;
+    
+}
+    
+.nav{
+    gap: 40px;
+    display: flex;
+}
+.con1{
+   background-image: url(/photos/bg.webp);
+   color: white;
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+align-items: center;
+}
+.con2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn{
+    padding:24px 12px;
+    border-radius: 40px;
+    color: transparent;
+}
+.sentence{
+    
+}
+#para{
+    border: solid;
+    justify-content: center;
+}
+#img{
+    width: 650px;
+}
+.input{
+    width: 40px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    border:cornflowerblue;
+    background-color: rgb(219, 222, 229);
+}
+
+.painting{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    width: 400px;
+}
+.imgz{
+    width: 200px;
+    height: 200px;
+}
+.clients{
+    display: flex;
+    justify-content: space-evenly;
+}
+.decor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.picture{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic{
+    width: 400px;
+}
+.foot{
+    border: solid;
+    background-color: rgb(2, 2, 18);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .nav, .con2, .icons, .painting, .clients, .decor, .picture, .foot {
+        flex-direction: column;
+        font-size: smaller;
+    }
+    .con1 {
+        height: auto;
+    }
+    .img, .imgz, .pic , #img{
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    /* Adjustments for tablets and small laptops */
+}
+
+@media only screen and (min-width: 1024px) {
+    /* Adjustments for larger screens */
+}
