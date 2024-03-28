@@ -83,14 +83,15 @@ align-items: center;
 
 @media only screen and (max-width: 600px) {
     .nav, .con2, .icons, .painting, .clients, .decor, .picture, .foot {
-        flex-direction: column;
+        flex-direction: row;
         font-size: smaller;
     }
     .con1 {
         height: auto;
     }
     .img, .imgz, .pic , #img{
-        width: 100px;
+        width: 100px;flex-direction: row;
+
     }
 }
 
