@@ -96,9 +96,18 @@ align-items: center;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
-    /* Adjustments for tablets and small laptops */
+    .nav, .con2, .icons, .painting, .clients, .decor, .picture, .foot {
+    display: flex;
+    
+    }
+    
 }
 
 @media only screen and (min-width: 1024px) {
-    /* Adjustments for larger screens */
+    .nav, .con2, .icons, .painting, .clients, .decor, .picture, .foot {
+        display: flex;
+        
+        }
+      
+
 }
